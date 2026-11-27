@@ -38,6 +38,9 @@ a:focus-visible,.btn:focus-visible{outline:3px solid var(--focus);outline-offset
 .bb-dark{display:none}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .bb-light{display:none}:root:not([data-theme="light"]) .bb-dark{display:inline}}
 :root[data-theme="dark"] .bb-light{display:none}:root[data-theme="dark"] .bb-dark{display:inline}
+.bb-prod{font-weight:600;color:var(--accent);font-size:.95rem;padding-left:16px;border-left:1px solid var(--line);line-height:1.2}
+.bb-pill{font-size:.7rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);border-radius:999px;padding:2px 8px;line-height:1.4}
+@media (max-width:640px){.bb-prod{display:none}}
 .bb-nav{margin-left:auto;display:flex;gap:4px 20px;flex-wrap:wrap;font-size:.92rem}
 .bb-nav a{text-decoration:none;padding:6px 0 4px;border-bottom:2px solid transparent}
 .bb-nav a:hover{border-bottom-color:var(--line)}
@@ -127,7 +130,7 @@ sup a{text-decoration:none;font-weight:600}
 <article class="card"><div class="who">For funders and agencies</div><h3>Funder's Ledger</h3>
 <p>Set the entries your grantees share side by side, each with its inputs, sources and range, before a funding decision. Only a grantee can enter, change or share its own entry.</p>
 <a class="go" href="https://tool.climatehealthledger.org/chlp-funder-ledger.html">Open the Funder's Ledger</a></article>
-<article class="card"><div class="who">For anyone</div><h3>Intervention Maps</h3><p>Five maps of climate, animal welfare and food interventions, the money and rules behind them, and their routes to health. Each intervention carries CHLP's desk assessment from published studies, with its verdict and figures.</p><a class="go" href="maps/">See the maps</a></article>
+<article class="card"><div class="who">For anyone</div><h3>Intervention Maps</h3><p>Five maps of climate, animal welfare and food interventions, the money and rules behind them, and their routes to health. Each intervention carries CHLP's desk assessment from published studies, with its verdict and figures. The maps are in open beta.</p><a class="go" href="maps/">See the maps</a></article>
 </div>
 <ul class="plain">
 <li>Beta 0.1 covers 18 interventions, from US school buses to heat plans in Indian cities.</li>
@@ -173,7 +176,7 @@ sup a{text-decoration:none;font-weight:600}
 <h2 id="who">Who is behind CHLP</h2>
 <div class="panel"><dl>
 <dt>Founder</dt><dd>Richmond Chua: 13 years across healthcare strategy at Sg2, finance at William Blair and Forerunner Capital, and product leadership; independent cost-effectiveness practice since January 2026.</dd>
-<dt>Where it stands, November 2026</dt><dd>Seeking pre-seed funding, with a fiscal sponsor to be named. Recruiting a cofounder or adviser who is an epidemiologist. The tools are in open beta, and their first beta testers are being recruited.</dd>
+<dt>Where it stands, November 2026</dt><dd>Seeking pre-seed funding, with a fiscal sponsor to be named. Recruiting a cofounder or adviser who is an epidemiologist. The tools and the maps are in open beta, and the tools' first beta testers are being recruited.</dd>
 </dl></div>
 </section>
 
@@ -193,6 +196,6 @@ sup a{text-decoration:none;font-weight:600}
 </main>
 
 <footer class="sitefoot"><div><span class="sf-name">The Climate Health Ledger Project</span> · <a href="mailto:richmond@climatehealthledger.org">richmond@climatehealthledger.org</a></div>
-<div>Updated November 26, 2026.</div></footer>
+<div>Updated November 27, 2026.</div></footer>
 </body>
 </html>
